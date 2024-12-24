@@ -2,6 +2,7 @@
 .vscode
 *.swp
 *~
+*/.idea/*
 
 # python
 .venv
@@ -9,8 +10,12 @@
 # build
 /build*
 /twister-out*
+/app/build
 
 __pycache__/
 
 # docs
 /doc/_build*
+
+# node
+/flasher/node_modules
